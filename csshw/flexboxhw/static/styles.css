@@ -1,0 +1,49 @@
+body{
+    text-align: center;
+}
+
+
+header{
+    background-image: url(./AdobeStock_398358801.jpeg);
+    text-align: center;
+    height: 200px;
+}
+
+nav ul {
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+main{
+    border: solid;
+    height: 600px;
+}
+
+.main1{
+    border: solid;
+    height: 300px;
+
+}
+
+.main2{
+    border: solid;
+    height: 295px;
+}
+
+footer ul {
+    border: solid black;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+@media (max-width: 600px) {
+    nav ul{
+        display: block
+    }
+    footer ul{
+        display: block;
+    }
+}
